@@ -1,0 +1,138 @@
+body {
+    overflow-x: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.first-part {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    background-color: rgb(122, 122, 122);
+}
+
+.first-part img {
+    border-radius: 5000px;
+}
+
+.text-icon {
+    max-width: 40px;
+    height: auto;
+}
+
+.myself {
+    border-bottom: 3px solid rgb(122, 122, 122);
+    padding-bottom: 40px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.heading img {
+    margin-right: 10px;
+}
+
+.myself-text {
+    margin: 0 60px;
+}
+
+.education {
+    border-bottom: 3px solid rgb(122, 122, 122);
+    padding-bottom: 40px;
+}
+
+.education-text {
+    margin: 0 60px;
+}
+
+.education-text-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.education-text-block:last-child {
+    margin-bottom: 0;
+}
+
+.education-text-block span:last-child {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.skills {
+    border-bottom: 3px solid rgb(122, 122, 122);
+    padding-bottom: 40px;
+}
+
+.skills-text ul{
+    margin: 0 20px;
+    list-style-type: none;
+}
+.skills-text li {
+    margin-bottom: 15px;
+}
+
+.skills-text li:last-child {
+    margin-bottom: 0;
+}
+
+.lang {
+    border-bottom: 3px solid rgb(122, 122, 122);
+    padding-bottom: 40px;
+}
+
+.lang-text ul{
+    margin: 0 20px;
+    list-style-type: none;
+}
+.lang-text li {
+    margin-bottom: 15px;
+}
+
+.lang-text li:last-child {
+    margin-bottom: 0;
+}
+
+.contact {
+    padding-bottom: 40px;
+    background-color: rgb(122, 122, 122);
+    font-size: 12px;
+}
+
+.contact .heading {
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.contact-text {
+    margin-left: 60px;
+}
+.contact-text-img {
+    width: 20px;
+}
+
+.contact-text-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-text-block img {
+    margin-right: 10px;
+}
